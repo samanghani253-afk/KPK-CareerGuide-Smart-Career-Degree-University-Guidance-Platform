@@ -1,0 +1,27 @@
+{
+  "app_title": {"en": "KPK CareerGuide", "ur": "کے پی کے کیرئیر گائیڈ", "ps": "کے پی کے د مسلک لارښود"},
+  "tagline": {"en": "Your Future Starts With the Right Choice.", "ur": "آپ کا مستقبل صحیح انتخاب سے شروع ہوتا ہے۔", "ps": "ستاسو راتلونکی د سم انتخاب سره پیل کیږي۔"},
+  "subtitle": {"en": "Discover the careers, degrees and universities that match your marks, interests, skills, budget and goals.", "ur": "ایسے کیریئرز، ڈگریاں اور جامعات دریافت کریں جو آپ کے نمبروں، دلچسپیوں، مہارتوں، بجٹ اور اہداف سے مطابقت رکھتی ہوں۔", "ps": "هغه مسلکونه، سندونه او پوهنتونونه ومومئ چې ستاسو له نمرو، لیوالتیاوو، مهارتونو، بودجې او موخو سره مطابقت لري۔"},
+  "start_assessment": {"en": "Start My Career Assessment", "ur": "میرا کیریئر جائزہ شروع کریں", "ps": "زما د مسلک ارزونه پیل کړئ"},
+  "explore_universities": {"en": "Explore Peshawar Universities", "ur": "پشاور کی جامعات دریافت کریں", "ps": "د پیښور پوهنتونونه وپلټئ"},
+  "compare_universities": {"en": "Compare Universities", "ur": "جامعات کا موازنہ کریں", "ps": "پوهنتونونه پرتله کړئ"},
+  "check_eligibility": {"en": "Check Eligibility", "ur": "اہلیت چیک کریں", "ps": "وړتیا وګورئ"},
+  "explore_careers": {"en": "Explore Careers", "ur": "کیریئرز دریافت کریں", "ps": "مسلکونه وپلټئ"},
+  "dashboard": {"en": "Your Career Dashboard", "ur": "آپ کا کیریئر ڈیش بورڈ", "ps": "ستاسو د مسلک ډشبورډ"},
+  "top_careers": {"en": "Your Top Career Matches", "ur": "آپ کے بہترین کیریئر میچز", "ps": "ستاسو غوره مسلکي میچونه"},
+  "next_steps": {"en": "Recommended Next Steps", "ur": "تجویز کردہ اگلے اقدامات", "ps": "وړاندیز شوي راتلونکي ګامونه"},
+  "disclaimer": {
+    "en": "This platform provides educational career guidance based on the information you provide. Recommendations are not guarantees of admission, employment or future income. University eligibility, merit, fees, deadlines and entry-test requirements can change. Always verify final admission information through the university's official sources.",
+    "ur": "یہ پلیٹ فارم آپ کی فراہم کردہ معلومات کی بنیاد پر تعلیمی کیریئر رہنمائی فراہم کرتا ہے۔ سفارشات داخلے، ملازمت یا مستقبل کی آمدنی کی ضمانت نہیں ہیں۔ جامعہ کی اہلیت، میرٹ، فیس، آخری تاریخیں اور انٹری ٹیسٹ کی ضروریات تبدیل ہو سکتی ہیں۔ ہمیشہ حتمی داخلہ معلومات جامعہ کے سرکاری ذرائع سے تصدیق کریں۔",
+    "ps": "دا پلیټ فارم ستاسو د ورکړل شوو معلوماتو پر بنسټ تعلیمي مسلکي لارښوونه وړاندې کوي۔ وړاندیزونه د داخلې، دندې یا راتلونکي عاید ضمانت نه ورکوي۔ د پوهنتون وړتیا، میرٹ، فیس، وروستۍ نیټې او د ننوتلو ازموینې اړتیاوې بدلیدلی شي۔ تل وروستني داخلې معلومات د پوهنتون له رسمي سرچینو تصدیق کړئ۔"
+  },
+  "nav_home": {"en": "Home", "ur": "ہوم", "ps": "کور پاڼه"},
+  "nav_assessment": {"en": "Assessment", "ur": "جائزہ", "ps": "ارزونه"},
+  "nav_careers": {"en": "Careers", "ur": "کیریئرز", "ps": "مسلکونه"},
+  "nav_universities": {"en": "Universities", "ur": "جامعات", "ps": "پوهنتونونه"},
+  "nav_colleges": {"en": "Colleges", "ur": "کالجز", "ps": "کالجونه"},
+  "nav_eligibility": {"en": "Eligibility Checker", "ur": "اہلیت چیکر", "ps": "د وړتیا چیکر"},
+  "nav_compare": {"en": "Compare", "ur": "موازنہ", "ps": "پرتله"},
+  "nav_scholarships": {"en": "Scholarships", "ur": "وظائف", "ps": "بورسونه"},
+  "nav_report": {"en": "My Report", "ur": "میری رپورٹ", "ps": "زما راپور"}
+}

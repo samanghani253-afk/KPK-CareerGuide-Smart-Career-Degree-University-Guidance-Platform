@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "status": "STARTER DATASET — NOT VERIFIED",
+    "instructions": "No affiliation relationship shown here should be treated as confirmed. Replace with the official affiliated-college list published by each affiliating university (e.g. KMU's official affiliated colleges list) before real use."
+  },
+  "colleges": [
+    {
+      "id": "college_placeholder_1",
+      "name": "[PLACEHOLDER] Affiliated Medical/Allied-Health College, Peshawar",
+      "university_affiliation": "kmu",
+      "district": "Peshawar",
+      "city": "Peshawar",
+      "address": "Needs Verification",
+      "type": "Needs Verification",
+      "programmes": ["mlt", "nursing"],
+      "eligibility": "Needs Verification",
+      "entry_requirements": "Needs Verification",
+      "fee_status": "Needs Verification",
+      "contact": "Needs Verification",
+      "website": "Needs Verification",
+      "data_source": "PLACEHOLDER RECORD — replace with KMU's official published affiliated-college list",
+      "last_verified": null,
+      "verification_status": "Needs verification"
+    }
+  ]
+}

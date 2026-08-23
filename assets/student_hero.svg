@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EAF3EF"/>
+      <stop offset="100%" stop-color="#F8F2E2"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F6C453" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F6C453" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FA07E"/>
+      <stop offset="100%" stop-color="#5D8360"/>
+    </linearGradient>
+    <linearGradient id="brick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B5563A"/>
+      <stop offset="100%" stop-color="#96412A"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2F7C77"/>
+      <stop offset="100%" stop-color="#1F5C58"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="640" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="150" cy="120" r="90" fill="url(#sunGlow)"/>
+  <circle cx="150" cy="120" r="34" fill="#F6C453"/>
+
+  <!-- birds -->
+  <path d="M700 90 q10 -10 20 0 q10 -10 20 0" stroke="#1F5C58" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M740 130 q8 -8 16 0 q8 -8 16 0" stroke="#1F5C58" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- distant clouds -->
+  <g opacity="0.6" fill="#FFFFFF">
+    <ellipse cx="620" cy="100" rx="46" ry="16"/>
+    <ellipse cx="655" cy="92" rx="30" ry="13"/>
+  </g>
+
+  <!-- hill / ground -->
+  <path d="M0 520 Q450 430 900 520 L900 640 L0 640 Z" fill="url(#hill)"/>
+  <path d="M0 545 Q450 470 900 545 L900 640 L0 640 Z" fill="#5D8360" opacity="0.55"/>
+
+  <!-- steps up to the building -->
+  <g fill="#E4DAB9">
+    <rect x="330" y="470" width="240" height="14" rx="2"/>
+    <rect x="345" y="484" width="210" height="14" rx="2"/>
+    <rect x="360" y="498" width="180" height="14" rx="2"/>
+  </g>
+
+  <!-- university building -->
+  <g>
+    <!-- main block -->
+    <rect x="350" y="330" width="200" height="170" fill="url(#brick)"/>
+    <!-- side wings -->
+    <rect x="280" y="380" width="70" height="120" fill="#A64B32"/>
+    <rect x="550" y="380" width="70" height="120" fill="#A64B32"/>
+    <!-- roofline trim -->
+    <rect x="345" y="322" width="210" height="12" fill="#E4DAB9"/>
+    <rect x="275" y="374" width="80" height="10" fill="#E4DAB9"/>
+    <rect x="545" y="374" width="80" height="10" fill="#E4DAB9"/>
+
+    <!-- columns -->
+    <g fill="#F3E9CC">
+      <rect x="368" y="360" width="12" height="140"/>
+      <rect x="398" y="360" width="12" height="140"/>
+      <rect x="428" y="360" width="12" height="140"/>
+      <rect x="460" y="360" width="12" height="140"/>
+      <rect x="490" y="360" width="12" height="140"/>
+      <rect x="520" y="360" width="12" height="140"/>
+    </g>
+
+    <!-- dome base -->
+    <rect x="410" y="270" width="80" height="60" fill="#E4DAB9"/>
+    <!-- dome -->
+    <path d="M400 270 Q450 190 500 270 Z" fill="url(#dome)"/>
+    <circle cx="450" cy="185" r="6" fill="#1F5C58"/>
+    <line x1="450" y1="179" x2="450" y2="160" stroke="#1F5C58" stroke-width="4"/>
+
+    <!-- side domes -->
+    <path d="M300 355 Q315 320 330 355 Z" fill="url(#dome)"/>
+    <path d="M570 355 Q585 320 600 355 Z" fill="url(#dome)"/>
+
+    <!-- windows -->
+    <g fill="#7C3620">
+      <rect x="360" y="410" width="16" height="26" rx="8"/>
+      <rect x="392" y="410" width="16" height="26" rx="8"/>
+      <rect x="492" y="410" width="16" height="26" rx="8"/>
+      <rect x="524" y="410" width="16" height="26" rx="8"/>
+    </g>
+
+    <!-- entrance -->
+    <path d="M430 500 L430 450 Q450 430 470 450 L470 500 Z" fill="#5C2A18"/>
+  </g>
+
+  <!-- flag on dome -->
+  <line x1="450" y1="160" x2="450" y2="140" stroke="#8A6D2E" stroke-width="3"/>
+  <path d="M450 140 L480 148 L450 156 Z" fill="#C98A2E"/>
+
+  <!-- student, standing on the steps, looking up joyfully -->
+  <g transform="translate(210,430)">
+    <!-- back leg -->
+    <rect x="14" y="90" width="16" height="60" rx="7" fill="#2E4B49"/>
+    <!-- front leg -->
+    <rect x="34" y="90" width="16" height="60" rx="7" fill="#365E5A"/>
+    <!-- shoes -->
+    <rect x="10" y="146" width="24" height="12" rx="5" fill="#22201B"/>
+    <rect x="34" y="146" width="24" height="12" rx="5" fill="#22201B"/>
+
+    <!-- backpack -->
+    <rect x="0" y="42" width="20" height="46" rx="7" fill="#C98A2E"/>
+
+    <!-- torso (kameez-style tunic, warm gold) -->
+    <path d="M10 40 Q32 24 54 40 L58 96 Q32 106 6 96 Z" fill="#D9A441"/>
+
+    <!-- raised arm, joyful wave -->
+    <path d="M12 46 Q -6 30 -16 6" stroke="#D9A441" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-17" cy="2" r="8" fill="#E9C48A"/>
+
+    <!-- other arm, relaxed -->
+    <path d="M52 48 Q64 66 60 88" stroke="#D9A441" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="60" cy="90" r="8" fill="#E9C48A"/>
+
+    <!-- head, tilted up -->
+    <g transform="rotate(-18 32 18)">
+      <circle cx="32" cy="18" r="18" fill="#E9C48A"/>
+      <!-- hair -->
+      <path d="M16 12 Q32 -4 48 12 Q48 2 32 -2 Q16 2 16 12 Z" fill="#2B2620"/>
+      <!-- simple joyful smile -->
+      <path d="M25 22 Q32 28 39 22" stroke="#5C4326" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="25" cy="16" r="1.6" fill="#5C4326"/>
+      <circle cx="39" cy="16" r="1.6" fill="#5C4326"/>
+    </g>
+  </g>
+
+  <!-- ground shadow under student -->
+  <ellipse cx="240" cy="583" rx="42" ry="8" fill="#2B2620" opacity="0.10"/>
+</svg>

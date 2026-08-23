@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "status": "STARTER DATASET — verify dates/registration details before relying on them"
+  },
+  "entry_tests": [
+    {
+      "id": "mdcat",
+      "name": "MDCAT (Medical & Dental College Admission Test)",
+      "applicable_programmes": ["mbbs", "pharmd"],
+      "eligibility": "FSc Pre-Medical (or equivalent) — verify current PMC eligibility criteria",
+      "subjects": ["Biology", "Chemistry", "Physics", "English", "Logical Reasoning"],
+      "test_format": "MCQ-based, needs verification for current year format",
+      "official_source": "Pakistan Medical Commission (PMC) — verify at official PMC website",
+      "registration_info": "Needs Verification",
+      "important_dates": "Needs Verification — changes yearly"
+    },
+    {
+      "id": "ecat",
+      "name": "ECAT (Engineering College Admission Test)",
+      "applicable_programmes": ["engineering", "architecture"],
+      "eligibility": "FSc Pre-Engineering (or equivalent) — verify current UET/provincial body criteria",
+      "subjects": ["Mathematics", "Physics", "Chemistry/Computer Science", "English"],
+      "test_format": "MCQ-based, needs verification for current year format",
+      "official_source": "UET Peshawar / relevant provincial testing body — verify officially",
+      "registration_info": "Needs Verification",
+      "important_dates": "Needs Verification — changes yearly"
+    },
+    {
+      "id": "lat",
+      "name": "LAT (Law Admission Test)",
+      "applicable_programmes": ["law"],
+      "eligibility": "Intermediate/FSc or equivalent — verify HEC criteria",
+      "subjects": ["English", "General Knowledge", "Analytical Reasoning"],
+      "test_format": "Needs Verification",
+      "official_source": "HEC / relevant testing body",
+      "registration_info": "Needs Verification",
+      "important_dates": "Needs Verification"
+    },
+    {
+      "id": "university_specific",
+      "name": "University-Specific Admission Test",
+      "applicable_programmes": ["computer_science", "software_engineering", "data_science", "cybersecurity", "business", "psychology", "public_health", "biotech", "mlt", "nursing"],
+      "eligibility": "Varies by university — verify with the specific institution",
+      "subjects": ["Varies by university"],
+      "test_format": "Varies — some universities use NTS/NAT-style tests, others use in-house tests",
+      "official_source": "Individual university admissions office",
+      "registration_info": "Needs Verification",
+      "important_dates": "Needs Verification"
+    }
+  ]
+}

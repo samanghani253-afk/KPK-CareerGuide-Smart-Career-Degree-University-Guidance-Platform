@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "status": "STARTER DATASET — deadlines and eligibility change yearly, verify officially before applying"
+  },
+  "scholarships": [
+    {
+      "id": "hec_needs_based",
+      "name": "HEC Need-Based Scholarship",
+      "eligibility": "Financial need, enrolled in HEC-recognized university — verify current criteria",
+      "deadline": "Needs Verification — check HEC website each cycle",
+      "coverage": "Varies — needs verification",
+      "application_method": "Needs Verification",
+      "official_source": "Higher Education Commission Pakistan (HEC)",
+      "verification_date": null
+    },
+    {
+      "id": "ehsaas_undergrad",
+      "name": "Ehsaas Undergraduate Scholarship Program",
+      "eligibility": "Financial need, merit-based — verify current criteria",
+      "deadline": "Needs Verification — check official Ehsaas portal each cycle",
+      "coverage": "Varies — needs verification",
+      "application_method": "Needs Verification",
+      "official_source": "Ehsaas Programme, Government of Pakistan",
+      "verification_date": null
+    },
+    {
+      "id": "university_specific_scholarship",
+      "name": "University-Specific Merit/Need Scholarships",
+      "eligibility": "Varies by university — verify with financial aid office",
+      "deadline": "Varies by university",
+      "coverage": "Varies",
+      "application_method": "Contact university financial aid / scholarship office",
+      "official_source": "Individual university",
+      "verification_date": null
+    }
+  ]
+}
